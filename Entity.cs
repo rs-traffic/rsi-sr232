@@ -6,11 +6,11 @@ namespace RSIST950
 {
     public class Entity
     {
-        public int CycleSecond { get; set; }
+        public string CycleSecond { get; set; }
         public int ProgramNumber { get; set; }
         public int StageNumber { get; set; }
         // 32
-        public List<int> Phases { get; set; }
+        public List<string> Phases { get; set; }
         // 25
         public List<int> Detectors { get; set; }
         public int DL20 { get; set; }
